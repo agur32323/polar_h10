@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+
+	<!-- Bluetooth -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bu uygulama kalp cihazına bağlanmak için Bluetooth kullanır.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Bluetooth bağlantısı gereklidir.</string>
+
+	<!-- HealthKit -->
+	<key>NSHealthShareUsageDescription</key>
+	<string>Adım, kalori ve EKG verilerinizi göstermek için HealthKit izni gereklidir.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>EKG ve diğer sağlık verilerinizi güncelleyebilmek için izin gereklidir.</string>
+
+	<!-- Rehber -->
+	<key>NSContactsUsageDescription</key>
+	<string>Rehbere erişim acil durumda seçilen kişilere ulaşabilmek için gereklidir.</string>
+
+	<!-- Konum -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Konumunuz acil durum mesajı için kullanılır.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Konumunuz acil durum mesajı için sürekli olarak kullanılır.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Konumunuz acil mesaj gönderimi için gereklidir.</string>
+
+	<!-- Diğer -->
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Veritabanı için belge dizinine erişim gerekiyor.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Uygulama bildirim göndermek için izninizi istiyor.</string>
+
+	<!-- Uygulama Bilgileri -->
+	<key>CFBundleDisplayName</key>
+	<string>PolarH10 Uygulamam</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>uyg</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+
+	<!-- Yalnızca iPhone -->
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<!-- Arka Plan Modları -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+		<string>bluetooth-central</string>
+	</array>
+
+	<!-- Launch -->
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Uygulamanız sağlık verilerinize erişmek istiyor.</string>
+	<key>NSHealthShareUsageDescription</key>
+<string>Adım, kalori ve sağlık verilerine erişim için izin gerekiyor.</string>
+<key>NSHealthUpdateUsageDescription</key>
+<string>Sağlık verilerini güncellemek için izin gerekiyor.</string>
+
+
+	<!-- Gereksinimler -->
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+
+	<!-- Dönüş -->
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+</dict>
+</plist>
